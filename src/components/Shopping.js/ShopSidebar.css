@@ -1,0 +1,67 @@
+
+.shopsearchbar{
+    display: grid;
+    grid-template-columns: auto;
+}
+.shopsearch__input{
+    display: flex;
+    align-items: center;
+    background: #d8dadb;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 33px;
+}
+.shopsearch__input > input {
+    border: none;
+    outline-width: 0;
+    background-color: transparent;
+    
+}
+.shopside__bar .categories {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.myy-icon{
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 33px;
+    color: rgb(54, 54, 54);
+}
+.shop__side__text{
+    font-size: 0.9375rem;
+    font-weight: 700;
+    padding-left: 7px;
+}
+.shopside__icon{
+    padding: 5px;
+    padding-left: 10px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+}
+.shopside__icon:hover{
+    background-color: rgb(211, 210, 210);
+    border-radius: 14px;
+    cursor: pointer;
+}
+.shopsidebar{
+    padding: 5px;
+    width: 30%;
+    box-shadow: 2px 0px 4px -2px gray ;
+}
+/*  margin-left: 50px;
+    padding: 10px; */
+
+    .divider{
+        border-bottom: 1px solid #ced0d4;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+.shop__flex{
+    display: flex;
+}
+#icons:hover{
+    opacity: 0.7;    
+}

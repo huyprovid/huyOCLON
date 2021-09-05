@@ -1,0 +1,22 @@
+.answer{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(rgb(15, 35, 54) , black);
+    border: 1px solid #fff;
+    font-size: 20px ;
+    border-radius: 15px;
+    font-weight: 300;
+    margin: 0 10px 20px 10px;
+    cursor: pointer;
+}
+.answer:hover {
+    background: mediumblue;
+}
+
+.answer.correct{
+    background: green;
+}
+.answer.wrong{
+    background: red;
+}

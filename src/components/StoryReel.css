@@ -1,0 +1,13 @@
+.storyReel{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.storyReel::-webkit-scrollbar{
+    display: none;
+}
+
+.storyReel{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

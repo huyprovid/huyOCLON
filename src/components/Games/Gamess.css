@@ -1,0 +1,9 @@
+.moneyListItem{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.moneyListItem.active{
+    background: rgb(65, 129, 248);
+}

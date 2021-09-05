@@ -1,0 +1,28 @@
+.shopproducts{
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: rgb(238, 235, 235);
+}
+.shopproducts__item__img{
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+}
+.shopproducts__item__name{
+    color: rgb(146, 146, 146);
+}
+.shopproducts__item__location{
+    color: rgb(168, 168, 168);
+}
+.shopproducts__flex{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+.shopproducts__item{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.shopproducts__flex__h3{
+    padding: 15px;
+}

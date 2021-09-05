@@ -1,0 +1,57 @@
+.postonhomepage__intro2{
+    padding: 50px;
+    box-shadow: 1px 1px 4px 1px rgb(167, 166, 166);
+    border-radius: 15px;
+}
+.postonhomepage__intro{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+
+}
+.postonhomepage__intro__section__1{
+    padding: 10px;
+    background-color: rgb(221, 222, 223);
+    width: 95%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.postonhomepage__intro__section__1:hover{
+    background-color: rgb(183, 184, 185);
+    cursor: pointer;
+}
+
+
+.postonhomepage__container__image__section{
+    display: grid;
+    grid-template-columns: 95px 95px 95px;
+    width: 100%;
+    margin-left: 85px;
+    padding-bottom: 30px;
+}
+.postonhome__img{
+    height: 100px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+.postonhomepage__container__image{
+    margin-left: 120px;
+    width: 30%;
+    padding: 30px;
+}
+.postonhomepage__container__image_2{
+    box-shadow: 1px 1px 4px 1px rgb(167, 166, 166);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    border-radius: 14px;
+}
+.postonhomepage__container__image__text{
+    padding: 20px;
+}

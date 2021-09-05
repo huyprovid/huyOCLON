@@ -1,0 +1,24 @@
+/* .homepageSearch__search{
+    height: 40px;
+    width: 350px;
+    border-radius: 33px;
+    outline: none;
+    border: none;
+    background: rgb(223, 222, 222);
+    margin-left: 5px;
+    width: 100%;
+}
+.first__search{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 4px 1px rgb(145, 145, 145);
+    width: 20%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+} */
+.first__search__img{
+    height: 30px;
+    width: 30px;
+}

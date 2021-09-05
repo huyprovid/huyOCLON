@@ -1,0 +1,87 @@
+.homeavatar__image{
+    display: flex;
+    justify-content: center;
+}
+
+.homeavatar__image__background{
+    border-radius: 10px;
+    width: 1400px;
+    height: 400px; 
+}
+.homeavatar__image__ava__user{
+    height: 150px;
+    width: 150px;
+    border-radius: 73px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 330px;
+}
+.homeavatar__image__avatar{
+    display: flex;
+    justify-content: center;
+}
+.homeavatar__image__ava__user__name{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 8px;
+}
+.cameraIcon{
+    position: relative;
+    margin-top: -19px;
+    background-color: rgb(187, 187, 187);
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 33px;
+
+}
+.div{
+    position: absolute;
+    left: 1000px;
+}
+.homeavatar__image__ava__user:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.add__picture{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 390px;
+    right: 325px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 14px;
+}
+.add__picture:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.homeavatar__add__desc{
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 28, 168);
+    margin-bottom: 10px;
+}
+.homeavatar__infos{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+   border-top: 0.1px solid rgb(185, 185, 185);
+   width: 72%;
+   margin-left: 255px;
+}
+.homeavatar__info{
+    display: inline-block;
+    margin-left: 90px;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: 700;
+}
+.homeavatar__info:hover{
+    background: rgb(175, 175, 175);
+    color: rgb(66, 149, 243);
+    cursor: pointer;
+    border-radius: 14px;
+}
