@@ -5,6 +5,7 @@ import { useStateValue } from '../context/StateProvider'
 import {  useState , useEffect } from 'react'
 import axios from 'axios'
 import Feed from '../Feed'
+import Header from '../Header'
 const Chats = () => {
     const [{user} , dispatch]=useStateValue()
     const [Loading , setLoading] =useState(true)
@@ -23,7 +24,7 @@ const Chats = () => {
         }
             axios.get('https://api.chatengine.io/users/me',{
                 headers :{
-                    'project-id' : '',
+                    'project-id' : 'd24f90b2-b8ef-4b9b-a540-65a684944c5c',
                     'user-name':user.email,
                     'user-secret':user.uid,
                 }
@@ -40,16 +41,18 @@ const Chats = () => {
 
                     axios.post('https://api.chatengine.io/users',
                     formdata ,
-                    {headers:{'private-key':''}}
+                    {headers:{'private-key':'5815e3e0-423c-4307-9cc0-e0ef910679d0'}}
                     ).then(()=>setLoading(false)).catch((err)=>console.log(err))
                 })
             })
     },[user , history])
     return (
+        <div>
+            <Header/>
         <div className="feeeeed">
             <ChatEngine
                 height='calc(100vh-66px)'
-                projectID = ''
+                projectID = 'd24f90b2-b8ef-4b9b-a540-65a684944c5c'
                 userName = {user.email}
                 userSecret={user.uid}
             
@@ -58,7 +61,9 @@ const Chats = () => {
                 <Feed/>
             </div>
             </div>
+            </div>
     )
 }
 
 export default Chats
+
